@@ -1,0 +1,49 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+}
+
+.header__image {
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header__loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__userAvatar {
+  margin-right: 10px;
+}
+
+@media (max-width: 1020px) {
+  .header__container {
+    width: 80%;
+  }
+  .header__image {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 560px) {
+  .header__container {
+    width: 100%;
+  }
+  .header__image {
+    margin-left: 12px;
+  }
+}

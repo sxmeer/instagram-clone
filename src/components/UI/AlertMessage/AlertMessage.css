@@ -1,0 +1,28 @@
+.alertMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.alertMessage > * {
+  margin-top: 20px;
+}
+
+.alertMessage__btnDiv {
+  width: 100%;
+}
+
+.alertMessage__negBtn {
+  background-color: white;
+  padding: 10px 0 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+  display: block;
+  width: 95%;
+  margin: auto;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+}

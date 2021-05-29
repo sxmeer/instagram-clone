@@ -1,0 +1,19 @@
+.floatingActionButton {
+  background-color: #0095f6 !important;
+  top: auto;
+  right: 25%;
+  bottom: 5%;
+  left: auto;
+}
+
+@media (max-width: 1020px) {
+  .floatingActionButton {
+    right: 15%;
+  }
+}
+
+@media (max-width: 560px) {
+  .floatingActionButton {
+    right: 5%;
+  }
+}

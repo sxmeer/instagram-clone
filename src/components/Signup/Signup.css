@@ -1,0 +1,35 @@
+.signup__container {
+  width: 55%;
+  margin: auto;
+  margin-top: 2rem;
+  border: 1px solid #dbdbdb;
+  padding: 5rem 2rem;
+  box-sizing: border-box;
+}
+
+.signup__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup__headerImage {
+  height: 3rem;
+  object-fit: contain;
+}
+
+.signup__input {
+  margin-top: 1rem;
+}
+
+@media (max-width: 720px) {
+  .signup__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .signup__container {
+    width: 100%;
+    margin-top: 0;
+  }
+}

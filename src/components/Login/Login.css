@@ -1,0 +1,35 @@
+.login__container {
+  width: 55%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  border: 1px solid #dbdbdb;
+  padding: 5rem 2rem;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__headerImage {
+  height: 3rem;
+  object-fit: contain;
+}
+
+.login__input {
+  margin-top: 1rem;
+}
+
+@media (max-width: 720px) {
+  .login__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .login__container {
+    width: 100%;
+    margin-top: 0;
+  }
+}

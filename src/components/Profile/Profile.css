@@ -1,0 +1,38 @@
+.profile__nameSections {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  width: 55%;
+  margin: auto;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  border-top: none;
+}
+
+.profile__userAvatar {
+  height: 100px !important;
+  width: 100px !important;
+  margin-left: 20px;
+}
+
+.profile__desc {
+  margin-left: 20px;
+  justify-self: flex-start;
+}
+
+.profile__values {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media (max-width: 1020px) {
+  .profile__nameSections {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .profile__nameSections {
+    width: 100%;
+  }
+}
